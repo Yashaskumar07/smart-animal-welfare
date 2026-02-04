@@ -1,0 +1,1083 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,timeFromCreateToActivate=15312000,viewActivatedIn=diagramming</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>049a0e497743011031e3b3c64b5a9996</copied_from>
+        <copied_from_name>FlowTemplate: Record Trigger</copied_from_name>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>animal_welfare_request_flow</internal_name>
+        <label_cache>[{"name":"Created_1.current.assigned_user","label":"Trigger - Record Created➛Animal Request Record➛Assigned User","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1896972_smart_0_animal_request","column_name":"assigned_user","usedInstances":{"830fd424-f11d-412b-803b-3e9e04618cae":["record"]}},{"name":"Created_1.current.assigned_user.sys_id","label":"Trigger - Record Created➛Animal Request Record➛Assigned User➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id","choices":[{"order":0.0}],"usedInstances":{"829ef7e3-11a9-46d0-92f4-20f0f90f752e":["assigned_user"]}},{"name":"Created_1.current.location","label":"Trigger - Record Created➛Animal Request Record➛Location","reference":"","reference_display":"Location","type":"string","base_type":"string","parent_table_name":"x_1896972_smart_0_animal_request","column_name":"location","choices":[{"order":0.0}],"usedInstances":{"1033a9f8-77b6-467a-954a-a968bdce52dc":["conditions"]}},{"name":"Created_1.current.request_type","label":"Trigger - Record Created➛Animal Request Record➛Request Type","reference":"","reference_display":"Request Type","type":"choice","base_type":"choice","parent_table_name":"x_1896972_smart_0_animal_request","column_name":"request_type","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"label":"Vaccination","used":false,"image":"","reference":false,"rawLabel":"Vaccination","selected":false,"missing":false,"value":"vaccination","parameters":{"name":"x_1896972_smart_0_animal_request","dependent_values":[""]}},{"label":"Sterilization","used":false,"image":"","reference":false,"rawLabel":"Sterilization","selected":false,"missing":false,"value":"sterilization","parameters":{"name":"x_1896972_smart_0_animal_request","dependent_values":[""]}},{"label":"Treatment","used":false,"image":"","reference":false,"rawLabel":"Treatment","selected":false,"missing":false,"value":"treatment","parameters":{"name":"x_1896972_smart_0_animal_request","dependent_values":[""]}},{"label":"Food Donation","used":false,"image":"","reference":false,"rawLabel":"Food Donation","selected":false,"missing":false,"value":"food_donation","parameters":{"name":"x_1896972_smart_0_animal_request","dependent_values":[""]}}],"usedInstances":{"9b8e949a-91b5-4416-b823-8fac18c34eea":["condition"]}},{"name":"Created_1.table_name","label":"Trigger - Record Created➛Animal Request Table","reference":"x_1896972_smart_0_animal_request","reference_display":"Animal Request","type":"table_name","base_type":"table_name","usedInstances":{"5579bbad-9141-43ef-8a8b-a1e85d03aa89":["condition"],"c45cbbd6-91de-4f7f-ba90-061516ff2dbc":["condition"],"db9a9943-cb91-4eb9-ad8e-f5095740d143":["condition"],"4b9e61ca-376f-4aa0-a49d-81d465f3f191":["conditions"]},"attributes":{"test_input_hidden":"true"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Animal Request Record","reference":"x_1896972_smart_0_animal_request","reference_display":"Animal Request","type":"reference","base_type":"reference","usedInstances":{"5579bbad-9141-43ef-8a8b-a1e85d03aa89":["condition"],"4e598863-7e03-4fe9-976a-4a9583d597aa":["condition"],"830fd424-f11d-412b-803b-3e9e04618cae":["record"],"829ef7e3-11a9-46d0-92f4-20f0f90f752e":["record"],"b8b192a1-ba99-4889-ba3b-d17a4f768606":["record"],"a4c4a54f-2467-4e99-b15f-6ea39485dbb8":["record"]},"attributes":{}},{"name":"Created_1.current.assigned_user.user_name","label":"Trigger - Record Created➛Animal Request Record➛Assigned User➛User ID","reference":"","reference_display":"User ID","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"user_name","usedInstances":{"830fd424-f11d-412b-803b-3e9e04618cae":["record"]}}]</label_cache>
+        <master_snapshot>52306bb33ba67610f988bffe23e45ad7</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Animal Welfare Request Flow</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>7edd48843b3e7610f988bffe23e45a70</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 06:39:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8873d73b3b267610f988bffe23e45ae7</sys_id>
+        <sys_mod_count>102</sys_mod_count>
+        <sys_name>Animal Welfare Request Flow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Smart Animal Welfare Management System" source="x_1896972_smart_0">9ea4033b3ba27610f988bffe23e45a70</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_update_name>sys_hub_flow_8873d73b3b267610f988bffe23e45ae7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 10:54:20</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record display_value="Created 2026-01-27 02:54:22">8bdd88843b3e7610f988bffe23e45a52</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=8873d73b3b267610f988bffe23e45ae7"/>
+    <sys_variable_value action="delete_multiple" query="document_key=8873d73b3b267610f988bffe23e45ae7"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1896972_smart_0_animal_request">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 10:54:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7edd48843b3e7610f988bffe23e45a70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 10:54:20</sys_updated_on>
+        <table>x_1896972_smart_0_animal_request</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>8873d73b3b267610f988bffe23e45ae7</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 10:54:20</sys_created_on>
+        <sys_id>7add48843b3e7610f988bffe23e45a71</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 10:54:20</sys_updated_on>
+        <trigger display_value="">7edd48843b3e7610f988bffe23e45a70</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=8873d73b3b267610f988bffe23e45ae7^sys_idNOT IN7add48843b3e7610f988bffe23e45a71"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=8873d73b3b267610f988bffe23e45ae7"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=8873d73b3b267610f988bffe23e45ae7^sys_idNOT INc873d73b3b267610f988bffe23e45aeb"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>8873d73b3b267610f988bffe23e45ae7</id>
+        <name>Animal Welfare Request Flow</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 06:39:06</sys_created_on>
+        <sys_id>c873d73b3b267610f988bffe23e45aeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 06:39:06</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=c873d73b3b267610f988bffe23e45aeb"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=8873d73b3b267610f988bffe23e45ae7^sys_idNOT IN40731b3b3b267610f988bffe23e45a0a,c473d73b3b267610f988bffe23e45af6"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Animal Welfare Request Flow">8873d73b3b267610f988bffe23e45ae7</model>
+        <model_id>8873d73b3b267610f988bffe23e45ae7</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_8873d73b3b267610f988bffe23e45ae7</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 06:39:06</sys_created_on>
+        <sys_id>40731b3b3b267610f988bffe23e45a0a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 07:34:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=40731b3b3b267610f988bffe23e45a0a"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Animal Welfare Request Flow">8873d73b3b267610f988bffe23e45ae7</model>
+        <model_id>8873d73b3b267610f988bffe23e45ae7</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_8873d73b3b267610f988bffe23e45ae7</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 06:39:06</sys_created_on>
+        <sys_id>c473d73b3b267610f988bffe23e45af6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 07:34:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c473d73b3b267610f988bffe23e45af6"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=8873d73b3b267610f988bffe23e45ae7"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8873d73b3b267610f988bffe23e45ae7"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=8873d73b3b267610f988bffe23e45ae7^sys_idNOT IN89e99b773b667610f988bffe23e45aec"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Animal Welfare Request Flow">8873d73b3b267610f988bffe23e45ae7</flow>
+        <generation_source/>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 07:07:18</sys_created_on>
+        <sys_id>89e99b773b667610f988bffe23e45aec</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 10:02:59</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VY227jNhD9FUFPLeACuvimvKVJFg2w3aCOt30IUoESSZsoTXklSom7yL93qJtlXRw7VrbOSwCRNOfw8MyZYR6+6xx5hOsX+hx5nOgDnQlJQoH4fLMmMCzVsCvQSs2tkMBIBuFGv5BhTAY6DYPVnKzWHElYTBGPYDAIMQn1C3OgJ4jH5H4T3WLYCX6fbpPvqefT8P3smlNn7EwsN1qhULqGiwRbIe6G5FtMIglLMYsgyObP/BeX6bw2K+f9JeM4JEK/eHgc6GsUQiSpUHyvTTEFxac+cixi+LZpW5ZhWNOh6Y1tz7SwjYhhwIZ1WmrQZQs723OTZ0kEJrikpEFcSBC+E3xTrlgC7xlJK/QcsX9h96mh1lEC2H2SzZWfbk5INuwvA+aTu7VkgchGMpzZZMDjlfiS4VdUEopiLgsqYSSOYD+yVpAViBwRvV8GT7Mi4Ccm0tPlkzzwES+/kJQh82JJIkU4ZRyodzNuoiAOU/Szm6u72bX71+X86rebmTu7uZ/Pbq/mN9f6S3ou91usdswQ5ljc7Dgv5f1/YoSrC4w2kQs3OdAjP2RreelLlhQCfBlsRX0VCMxSVhrC9oupaFfYxen3KdswOrXtVyIW+v775o+mhLPB43Q7HiOECerQrUcruq2evAWabCGherp9Cs5HDpHw0DD+JxHn/vRWDa8CTPj1djsdJhcLUDUT61gqtp6QkJErAxdh7FZ4VEsB02uizs7WVPbrmg5jAVu45Q01lZ0SWTL6mYFDXjxAXhZspVvCPP2cbzmLhRbAVcIfzY9DIEtqhdPR2xVa5BzTe8KJLyuyoF+j6tfvLIqYWFRQl0FTVhoxy3AgL604UhY7OjH4Y59p3SQ9qZFZS++jc9s0KfUItYyJymzTsD1qGhNjhCi2DcO3KrndBNOJUtYk8S45flyGR6kY+QHSq1Ocgzeq2XCQjJJdDRYkKInkRnLVDzSzJ2iWglYzRPsoRyxlmQ1f76pz39F67gYQThD8Ah9qjGrBAQ5IefAEZvwG9/OQ/88iDGKB63ak9tSY0LYrtJ9y/n7u0QlpEJL9AHZXnJMHbmkvhIvEpgf3s6npOWRIDDA9G/zOGzmO5yOL0sl4Qiyz5n5bGK3YPoTrvaK2pE2uXQ7YKpykTW9HeN8JABs+eDTA0x0wF2ar/2VzH8PpnpZEuAA1dDlL37o1w1twhkkx12+2N0In2/w+NePp1PFH5mTiT+AdAxlPh8RD5tAaIWcytqejWsY3oOyDKVuY+SGvG/UuVUA63OBrNnVez/X3lG1EpFTl6PgqLaCPTX+DsiCVSqmuRUtNJQi1L4H45Xa7TrsnUADTJ25f5foQFOpitfeF4QVy2egXIPSvML4TWvWZHayc3ZOqJpJk96wnP6nIcDpyqN1uMdRps5gtmG6YZ99eHJghSWeutfUZhwo+ac2bzsbgDRKuyaTaMexpafoixeydFOv9SLFPbqOKXOx8R74F7AcqYWlfcUodUzGJG9CqeV8HGkxoEERjVMv/t0iw5m00uSRAKYd+GQJqKvqprl2tIk0opYJ/LJCsA29UMxjW8gbq/ApVTQr9voAJnqDRyO7oh536C7gN0Ct4z75sHZ0VSVuS7a1dx+1b37O1elUku6uIA+tSr6duL06nnbq1PL126tMLz773ewuKMy0pj/8BmhoEEWMfAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=8873d73b3b267610f988bffe23e45ae7^sys_idNOT IN0b1cbf7f3b6a7610f988bffe23e45a48,1fc4f7bf3b2a7610f988bffe23e45a1b,2944777f3b2a7610f988bffe23e45aaf,bead00843b3e7610f988bffe23e45ac8,e86b773f3b6a7610f988bffe23e45abf,f90dc8803b3e7610f988bffe23e45acb"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Animal Welfare Request Flow">8873d73b3b267610f988bffe23e45ae7</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 09:36:49</sys_created_on>
+        <sys_id>0b1cbf7f3b6a7610f988bffe23e45a48</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 12:04:19</sys_updated_on>
+        <ui_id>830fd424-f11d-412b-803b-3e9e04618cae</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9WV207jMBCGXwX5uqlyaJukdwiEhMSCBCw3CFkTe0wtOQccB+hWvPvaSShNObPLSnuZydjz+5/57MsVkZzMySRIOE9F4IsgCPzAnwZhkGCCGYtnMUYJGZECcrSZRWmkkAyMLAsbvQXVuPB0lk6Sie9HmYB4ZvdJkyQTAsMIJ1PgkU3lsq4ULC/6FbuFzEHtnOJNg7XZ2a1reV3UNo8tpOIaCzK/vBqRCrQtbFCT+Wrr10eVK8hQ2dTjofSXD2SWlYtqFGgLMexDR/0epxvxUnMnKxoRvDdYcLR6BKgaRySHgoMp9ZLMjW5sQCPwk0It1xkLWRi7H3G597X8ZYtG4Wij7pzUyxpvsTAUc5CKAuslrnNob+nzs4l9MHBmSzPTaOzqsEUpGdaddxwFNMrsbca6hJOq3aNdYiBTbylhpWry4rgzEmy7mUFOhUTFaVnQdg1ZF3vsvI00tRWPlTPN2dB5JM4W5d3a4ANZtPb2fqmSgVp/iTMEzRYHrpLroVMwImCMlllj3IFWw8bOiavhKsvzV9qJCnN3xhyqShbXtNLlrWwl2HPm42tlP8ZClXdWuZvVcWfD2DYaxgc2vt+GL0BLZ9sPu41d/Fhxa6ZqNLS3hboNqCh1Dm4i2hO2y34W0rJx2E55GmAchYmXzkLmTTCaehmPIi8IMoYIKEIekIeRa9SegrruW9INC71pnHWk7UTvOe08cUJp655bzLSszK491S32Tj+MHi8I/hZm4cYFoZFZMDauhtVqz06/G4xgzBptHTAPD8/vg8+T/74ktW5zr2lbY087L1nT9l7yLd73+z87h/tPxAdvE99HvoL8K3T/faK34f0WSoc8rjkYuj0Ecuj39yG5wRYP/DhKfebF4TTyJj4DL0t45kEWiulkMktm2feylbz9hIVPc7ux5xNf9zRI0lkah7TOQRvqU2ifVqq7p/W9p/fT4H1A7yN45+24vay/Z+9Z7Ghz7c5x96MnL/wked3IvgBe4v9H4K0fvT8lb+D1ELyB2/+EO5Zlmcgw9ewbZt+0GBMvCSH2cOqzSISR78fiC9y9RtvVb9xjpk7sCgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0b1cbf7f3b6a7610f988bffe23e45a48"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Animal Welfare Request Flow">8873d73b3b267610f988bffe23e45ae7</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 09:04:52</sys_created_on>
+        <sys_id>1fc4f7bf3b2a7610f988bffe23e45a1b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 12:04:19</sys_updated_on>
+        <ui_id>1033a9f8-77b6-467a-954a-a968bdce52dc</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VXXW/aMBT9KyjPEXIKpbRvE1WlSW2R2q4vXWs5sQPWTJLZDh9F/Pdd20lgkDLYUq3TnlCur32Pzz3HNk9Lj1PvwkNxFyESnPbPEOp0EOr1OhEJwrDTi0IUnp57vpeQCYNMlUqN9SJjEJoSkVcxoiIIUa4yQRaPxQhp6bT1CvFozAWVLPEunp59LyMSVtNMehfLraFD4QgSMgGp91C79eDw1EC0PxdQI+VR+X1dTB2UwVRSA6Xje2yuWUIZYIiJUMz3JiShRKdyUUUkI3SYiHVgzBMNq3kmea74K9TrnJi8mMGuIubGqk9cUOTC8SXR5F7LPNK5LFIdWAV8LKttVkTWcF7ARyt/nf9q8sl2PmWbE4IV8E1ZTHKhB79XMzi25omp6TY4zDRPoetex/SFhKLcfirySXLreulVCB9rxOZGLt/QXK6AbJaZhpoOFe2K78fp7K7sxhVPLK5iUKQREdUX0VryMNeGl6UXUxxzJijmieCJqQRtM/Jhgk2gAp6QLOPJCGcynXK7Kuxl0h4J+GjHIp0ZLvgoaZPI7LwNwiLtK4hf2vAjkdywcAPLwGTfFBzD1KIeVpHkmcYzTkdMr6uXWTTVMyK+1Y0XisNlo+z2vJXvqYUaCKLUmmyQKf6eGw4c9QV72DbKTrEoPsEOpqwgymjA2jY622vb0y2LukZv6GX3/Dj65DgAQsnC0CiyFS7eQlUcHa7nNuPn4+PKDLRu3UAp78aOkD5q5gips/iuBY9y4K61jNT+wFnvaKA6xx4vfMfNL9Tf3Xtp9YK1zqDJWDIFlKoN9QcIoV0HBL4LH2eDA7CUNrgh89ZdBaYWYeEEECkbWWI3bfC5ihYe6Dbmge7H9UDZrNobqOxZwxfQ+9ik+Wugv//1htYyi9KEcoNx0wcyFUx9zWEuneOgf947PzvBakLgbEbtKdMvw7v9KdA50CSTL4ZMs7rLXC4HIDrNKA7aUS6Bfd0uM1arXef9NRzHWf0AtkurDzbprmtB+Vrejl3XLVA+ARu0O/q4hv9HLr13utv2i6wbrvXkltv4D7BQGIiTu/764qJNqt0CKdX+UCDZAlZo3H7WPevstK1nHfo/n3Uf88ICQFyAQrBroUpzaamc4kjkyg5Ikii3VoPX2/MPCQHlei0RAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1fc4f7bf3b2a7610f988bffe23e45a1b"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Animal Welfare Request Flow">8873d73b3b267610f988bffe23e45ae7</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>cfd81912-ceb9-4c8a-8300-bb563e8ff8bf</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 09:02:34</sys_created_on>
+        <sys_id>2944777f3b2a7610f988bffe23e45aaf</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 12:04:19</sys_updated_on>
+        <ui_id>127533cb-312c-4060-b356-0a85d1a65f70</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9VTTU/jMBD9K8jnqEoattv2hkA9sSAB6oVF1iSetJYcO9hOabfiv+/EcdqKBS0r7YWeMm++3pv6Pe6ZFGzOJgLT2SyblHmW5+M0HU/Ps2KSF9lY5IBZwRKmoUaq3IBq0VEcPgiw+EyA537X4M82TXNRGSO4MBq8NJoqhXSNgt3y0w3lWiphUbP541PCGrC02qNl8/2b1Ge5KyhQUelCohLuHTEdF4o91sTUI+/F9fh1bH6IybNlTBorOlJZwnDrUQskNhUohwmrQQvwxu7Y3NuWAIsgbrXaHSrWUnsayrrarZO/aH02ScOvq66QRJbYVxxCHk/Zw9UVeLin+aVvbSwt10aWJCmcR2AFrfKXp1hfcNuEU4cWD4Uauo1qa33TH4cdBgz/HCGtIxLYdGo7/r246n5tXu4Gkgupw12iUGVKUIcIvLeyaH1HZ89QYU1zeA1NI/WKN9ZsZGgmKvVopSgYVcq80E4nV3oEZcd7RLeF0YLwqwAvwcpOxA8aQ82vCXM7d6nAuaMUuiF/bjsmvbAogYcrhBPw8Ci65tLKxl/Qqg1G4q/JYJQM028fPjY8P76tk5lHs2x5Np1NZt/H3NVgPU85aFmD4tEUf7rlIuTP7g75fzTH3/kO5ngI7+B9/oM/3mLXp71nN30i+iL9X76YfiVHRBlf3hIfGeHpN05gHuszBgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2944777f3b2a7610f988bffe23e45aaf"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Animal Welfare Request Flow">8873d73b3b267610f988bffe23e45ae7</flow>
+        <generation_source/>
+        <order>8</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 10:53:31</sys_created_on>
+        <sys_id>bead00843b3e7610f988bffe23e45ac8</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 12:04:19</sys_updated_on>
+        <ui_id>a4c4a54f-2467-4e99-b15f-6ea39485dbb8</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9WW207cMBCGXwXlerPKaTcJdwiEVIlSCSg3CFkTewyWnAOOQ6Er3r3jJHuCLZS2VOqlx6d//pkvztXCU8Lb9xKRCZHLMJBhGAZhMAujMMMMC57OU4wyb+JVUCKtNMhrI2h8D7pzgcXi0CBYFCyc8s4YrOzTE80L1TYaHi/HZRTht0oLmvf2r64nXgOGTrRovP3Fs6lflaShQE1Lz5aanmu0j40bi5p3Jeliahk8GXcejTN7n45ohjY5OeHEwweLlUDSIUG3OPFKqATY2jyuIpS0+FLpdeBWVXZItISHVn2nm+PIrZNImfHRhNWQjQYNYXkEFs6t6bjtzMqvWnFsB08ESui0PdyMDQu+NFbV1bDFQqGXu2vdldXp4Ii3OmCjHl1LIrBxiTrldDllIc9v629nS5HHquotGVPUNQe9GoG1RhWddXIWXqcudrk9hHf7jRr7hSU0japuWGPqe9XfR+rL6Y2mwVTq+hvJbNVNNQXuUp1SJWB6TPGjPnwJRrm8P9MxtNnd+bVSdx1+cn0kwiCN84D7aTSL/STg4BeZKHwoIjlLknk2L0LvaeK1j+2hhrZdO0alYnedS3jwb3SK9Wb3TrO+4dxmblRjD0jePY7+PE1GtrLwtUaOo3Xfbpy55uuBhVk+z9OItSUYywIGlSpBM4OUYmtfonbQz++drebfB94v6F2Cd9G32279I3svYiebe/dOh4mRvOid5A0tuwO8LPiPwBvT+nPytrzeBm/L7X/CHS+KQhaY+2HBuZ+kmPlZBKmPs4DHMoqDIJW/wd1btCWvd+/GS1bVVknFoS/imrfZPE+yJAjiQkI6p3PyLCukxCjGZAYifou3vYPWmdO+/8F7W/mSu9Nt6bsTGgFcY7DN39lGfMQvfh2/gbbfefeoxnjvSoglKM2GdvoJk89y+8t8/kzJFrRA5ebuj0Yq1IL6jvV7PuQRlecIht8eu5tcDQdCtwHfKixhTne8AHyznB/H98XLnmrRstEW5g5gsjYluI7oM3z+WUjyENM4yvx8HtFnAeOZX4g49kP6TCACykh8zHN8/QNMono27AoAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=bead00843b3e7610f988bffe23e45ac8"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Animal Welfare Request Flow">8873d73b3b267610f988bffe23e45ae7</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 09:33:37</sys_created_on>
+        <sys_id>e86b773f3b6a7610f988bffe23e45abf</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 12:04:19</sys_updated_on>
+        <ui_id>829ef7e3-11a9-46d0-92f4-20f0f90f752e</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1TXWviQBT9KzLPEhJjXfWtKMJCtwVbfOm2wzVztQOTj85MrK743/cmmURr3WKhC1vYvM39mDnn5Jz7LZOCDVkXhR8Mgl4UBmHY8f1OvxvMe+E86IgQEAPWZgnESJMao1QLOq9A5UVhux1pBIuCB16Ua42J3e2oL6TJFGxmbowq0ZNUgvpseP/QZhloutGiZsPtUetcSArmqGh0WmM6xmg3WXEWaZTHhIvLunjlNseu0/o+pg4tFXACv81wbTERSEAWoAy2WQyJAJvqDRtanVOBSIubRG2aiSeZ2IpoDGsjf9HLXb+YWyAxi5wIzZE7garyYgwWbunmyOa60SuVEZpKE4ELyJUdHdaqgZvMyjSpVizMVb2dqjxOritFWHPBwf/IDYHArOBZIK9oLW6f0pdpDXIik1ISR1GlEajmBNZqOc9tAWfLUGGpcQxZJpMlz3S6kuUyQYm9paKDt1DpC71p5DLxICpwe6QqeBOqj8vyDLQsSPyga2h512ZmY0YKjNlTIQ35c14gqYg5CrxUoZSAl04oliMtM3tJT63QAd+1nen9zrsOw72hSq+bA9MTHMJKnicN9c/c90NxIgfeqzGPiJADd7tHY8HmplqrR94m5q+88bEMnqFQncGJRCXMCclcBi3GRM4iryR8HcM712zNXLNJ4qdFMej55fc/kP9uIOcX79ktGuzddXDnPpRrHvQHvcG3DjcxaMt9DomMQXGNz+RF+zZil2W/NW36H4vHGXjreNyVPjiNv07Ice3qcLd1XTVcMi4+LRj9rxQJR+PLZ+JPSXj4DdvjGxiRCQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e86b773f3b6a7610f988bffe23e45abf"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>89ce8a4187120010663ca1bb36cb0be3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Animal Welfare Request Flow">8873d73b3b267610f988bffe23e45ae7</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 10:50:44</sys_created_on>
+        <sys_id>f90dc8803b3e7610f988bffe23e45acb</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 12:04:19</sys_updated_on>
+        <ui_id>b8b192a1-ba99-4889-ba3b-d17a4f768606</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2XXW+jOBSG/0rFdZzFYIjpXZW02krdqZR2Zy9mR8j4o7FkIAOm02zV/74GnEBCmmln0kqV5pLjj7znPefJgS+PjmTOqYMiyjFBEE+g57rQDUOfEpgkfkgTN+HIGTkZSbnZWXCaF8w83xNV1YHHx2nBieYshmNaFQXP9NOTWWeyXCqy+my3mQhdSMXMunP65evIWZLC3Kh54Zw+7iy9VJIiCVdm63ytaVejXi3rZ5bTKjW6YrkOXtmTM7tycjkzK+ZQLQeOHP6geca40SGIKvnISUnGiM6LlXOqi8oETM7sOlOrzY6FzHSbZ0oeSvmf+WHfq/cJbhKj1oPNY2z9acNiRjS5MTdTXRUbu3JJedlawrggldLTfqzdcL3UMs/aI5okan06V1WafWoNcTYX9MpRlUYEX9Z51srbtMTNIv8+X4u8kFnjiE1R5ZSozRPRupBJpWs5j04lb/eZ3Yb32y2kMuWPG9FxmVdFY9L8fHo9n8X/nN1O/zyfx/Pzm9v55fT2vD7BFW+uTslyKbO7eFnk97JRaPJNx3fKPIyFyr+bxEp5l40Jrc0Zm9KR8YWJz5rwZ1LI+kf/MteYw7XKvzP5reKXTeMJAX0YhgBC1wcIJiGIMA+AywOCAg+FQeg5TyOnXJVTRcqy89gUN/5W1Ra1jltv46Y8bZpNh9aHaSGX+szIu+fW0afRGsbgYOeTrtF7d3ZAPsQQR2E08eIyJYWO3ZhkMiUqLrhJsdRDNs+a9ZP5Zv2VpP5Y75rU26ZB9+u3sA5iV/2zJ5/aBYuqdxhVG+lYbZt8D6rY/UCo2rR+ndUtr7dR3XJblnHbsFZ0c+t78eiZdsYo8YGfoACgSAiAXYwA4sSlgccmCNKf4PGHFB6eP6LrYppnTNZ5lT0KS010Vf5bua7PjBdLZQBiQ/Se23bUWSl6BE77YvclYDEcxK72XWAx9I81MZHrfiQQjzUzt8ze5nDL7nfhjTMcJoGLARcYA+RPMIig54EwJAxCRJlw33b+uexQN4vey6iWKc8rHQtF7nrsuUPO1v9Yr+PqBUrWXJ1nzR+mVfSsREtXkueKk2x3wpl2+uPCKrVooVdOuENsfSCyjjbiOqd35lvf63fhilKCzcAiIPIpByhMKMCCCuDzJBB+kOBk4r7BHKOHezgatiqrCtJUsSPqCN9zL9CxZmnWCXhemiWpqc1u/Gp4kcUp+I3TL+E0sHvnA69beCumFubcjKzKuisMw0PKOCSTIKm/2QhAXgQBiZAHopBPOBI49En0BpRheLC7xbCVS7rgrFL8uJS9QMeasptOwPPSLGVdo28DNu/FLWHh0QjDg5dBmmZ9cft462X1IbkTN5wUdHEhuarrab/NnqGxX5ZtEPuFeZ/p5nnQZ5wCyMyrI/JCD2AfTcAkwomLTOslPj8id1//B198c9q6FAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f90dc8803b3e7610f988bffe23e45acb"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=8873d73b3b267610f988bffe23e45ae7"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=8873d73b3b267610f988bffe23e45ae7^sys_idNOT INbe2927f73be67610f988bffe23e45aba,d14433f73be67610f988bffe23e45a15"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">ba2927f73be67610f988bffe23e45ab9</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Animal Welfare Request Flow">8873d73b3b267610f988bffe23e45ae7</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 08:14:03</sys_created_on>
+        <sys_id>be2927f73be67610f988bffe23e45aba</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 10:54:18</sys_updated_on>
+        <ui_id>9b8e949a-91b5-4416-b823-8fac18c34eea</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VTWsbMRD9K0Vns+x6Y9P4FlIChTahTcilTZZZaTYWlaWNpLXjGP/3zuyHY2qXpqWXQm+rp/l4b+aJ3QjXxLqJ4cadhaAfrJh9uRsJbRmj742wsEAxE9JZpaN2VozEEkzD2GZz7hEiqiJLZOM92ph4fGwwxCKua9xuvzZpmqslSKktcPb95afXZoWIXhv9/Lt5kaMWdEtMlQ61gfXtP0NYzrVRFNmtoQZP06eyYrb54YoLFAZKNKTrOnptHyhdKzqdwqSaZOlE5uNpPk7T8duTrJzmZTZWOeDJlOKGxPO9rR5ZNDchKAzlnVfMZZyOBD5FtAqpXwUm4EgswCqIzq/FLPqGAFKlrqxZ7yLmmiTOhODYp6CfkSulKUdWSMIkdre7Y9Gvr4Pl3GmJV3XLrUUilKbPkc40C3vZSeDFYwWNicPiCWkC1cOaSTONnlN1PXerz0PDC21bgf2lcRLM7gSRxlA2EQNvAw3yyooF1DUNp6i9W+o2mbgskgdDh6QybkVN+V0lIJl4QjOC5ILwdy18C16zio9UhpJpg6EI0ut60NY2F9t2KsVjw3w6fb2SohsGBXRpZ9RmiT3p7ejw/RYt8PKID1/JX7JhlUKVncrsuA0hP2bDNx9a5NCMA+ufODL7hSN75FWWnEz+O3LfkUyzhKBl0f4VqBy/7z+25B1br2sROg8plDoQkxvG3g9/Hr5Y09a13IdWzn9jDS/Y9jvoXKkAwwYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">194433f73be67610f988bffe23e45a14</block>
+        <comment/>
+        <connected_to>9b8e949a-91b5-4416-b823-8fac18c34eea</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Animal Welfare Request Flow">8873d73b3b267610f988bffe23e45ae7</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 09:02:33</sys_created_on>
+        <sys_id>d14433f73be67610f988bffe23e45a15</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 10:54:18</sys_updated_on>
+        <ui_id>cfd81912-ceb9-4c8a-8300-bb563e8ff8bf</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=8873d73b3b267610f988bffe23e45ae7"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=8873d73b3b267610f988bffe23e45ae7"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8873d73b3b267610f988bffe23e45ae7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 06:39:06</sys_created_on>
+        <sys_id>84731b3b3b267610f988bffe23e45a0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Smart Animal Welfare Management System" source="x_1896972_smart_0">9ea4033b3ba27610f988bffe23e45a70</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 06:39:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8873d73b3b267610f988bffe23e45ae7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 06:39:06</sys_created_on>
+        <sys_id>c073d73b3b267610f988bffe23e45afc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Smart Animal Welfare Management System" source="x_1896972_smart_0">9ea4033b3ba27610f988bffe23e45a70</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 06:39:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_8873d73b3b267610f988bffe23e45ae7"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_8873d73b3b267610f988bffe23e45ae7"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,viewActivatedIn=diagramming</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>049a0e497743011031e3b3c64b5a9996</copied_from>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <internal_name>animal_welfare_request_flow</internal_name>
+        <label_cache>[{"name":"Created_1.current.assigned_user","label":"Trigger - Record Created➛Animal Request Record➛Assigned User","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1896972_smart_0_animal_request","column_name":"assigned_user","usedInstances":{"830fd424-f11d-412b-803b-3e9e04618cae":["record"]}},{"name":"Created_1.current.assigned_user.sys_id","label":"Trigger - Record Created➛Animal Request Record➛Assigned User➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id","choices":[{"order":0.0}],"usedInstances":{"829ef7e3-11a9-46d0-92f4-20f0f90f752e":["assigned_user"]}},{"name":"Created_1.current.location","label":"Trigger - Record Created➛Animal Request Record➛Location","reference":"","reference_display":"Location","type":"string","base_type":"string","parent_table_name":"x_1896972_smart_0_animal_request","column_name":"location","choices":[{"order":0.0}],"usedInstances":{"1033a9f8-77b6-467a-954a-a968bdce52dc":["conditions"]}},{"name":"Created_1.current.request_type","label":"Trigger - Record Created➛Animal Request Record➛Request Type","reference":"","reference_display":"Request Type","type":"choice","base_type":"choice","parent_table_name":"x_1896972_smart_0_animal_request","column_name":"request_type","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"label":"Vaccination","used":false,"image":"","reference":false,"rawLabel":"Vaccination","selected":false,"missing":false,"value":"vaccination","parameters":{"name":"x_1896972_smart_0_animal_request","dependent_values":[""]}},{"label":"Sterilization","used":false,"image":"","reference":false,"rawLabel":"Sterilization","selected":false,"missing":false,"value":"sterilization","parameters":{"name":"x_1896972_smart_0_animal_request","dependent_values":[""]}},{"label":"Treatment","used":false,"image":"","reference":false,"rawLabel":"Treatment","selected":false,"missing":false,"value":"treatment","parameters":{"name":"x_1896972_smart_0_animal_request","dependent_values":[""]}},{"label":"Food Donation","used":false,"image":"","reference":false,"rawLabel":"Food Donation","selected":false,"missing":false,"value":"food_donation","parameters":{"name":"x_1896972_smart_0_animal_request","dependent_values":[""]}}],"usedInstances":{"9b8e949a-91b5-4416-b823-8fac18c34eea":["condition"]}},{"name":"Created_1.table_name","label":"Trigger - Record Created➛Animal Request Table","reference":"x_1896972_smart_0_animal_request","reference_display":"Animal Request","type":"table_name","base_type":"table_name","usedInstances":{"5579bbad-9141-43ef-8a8b-a1e85d03aa89":["condition"],"c45cbbd6-91de-4f7f-ba90-061516ff2dbc":["condition"],"db9a9943-cb91-4eb9-ad8e-f5095740d143":["condition"],"4b9e61ca-376f-4aa0-a49d-81d465f3f191":["conditions"]},"attributes":{"test_input_hidden":"true"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Animal Request Record","reference":"x_1896972_smart_0_animal_request","reference_display":"Animal Request","type":"reference","base_type":"reference","usedInstances":{"5579bbad-9141-43ef-8a8b-a1e85d03aa89":["condition"],"4e598863-7e03-4fe9-976a-4a9583d597aa":["condition"],"830fd424-f11d-412b-803b-3e9e04618cae":["record"],"829ef7e3-11a9-46d0-92f4-20f0f90f752e":["record"],"b8b192a1-ba99-4889-ba3b-d17a4f768606":["record"],"a4c4a54f-2467-4e99-b15f-6ea39485dbb8":["record"]},"attributes":{}},{"name":"Created_1.current.assigned_user.user_name","label":"Trigger - Record Created➛Animal Request Record➛Assigned User➛User ID","reference":"","reference_display":"User ID","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"user_name","usedInstances":{"830fd424-f11d-412b-803b-3e9e04618cae":["record"]}}]</label_cache>
+        <master>true</master>
+        <name>Animal Welfare Request Flow</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Animal Welfare Request Flow">8873d73b3b267610f988bffe23e45ae7</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 07:34:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>52306bb33ba67610f988bffe23e45ad7</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 10:54:20</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=52306bb33ba67610f988bffe23e45ad7"/>
+    <sys_variable_value action="delete_multiple" query="document_key=52306bb33ba67610f988bffe23e45ad7"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=52306bb33ba67610f988bffe23e45ad7"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=52306bb33ba67610f988bffe23e45ad7^sys_idNOT INde306bb33ba67610f988bffe23e45ad8"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>52306bb33ba67610f988bffe23e45ad7</id>
+        <name>Animal Welfare Request Flow</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 07:34:58</sys_created_on>
+        <sys_id>de306bb33ba67610f988bffe23e45ad8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 07:34:58</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=de306bb33ba67610f988bffe23e45ad8"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=52306bb33ba67610f988bffe23e45ad7^sys_idNOT IN5e306bb33ba67610f988bffe23e45ada,d630abb33ba67610f988bffe23e45a10"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Animal Welfare Request Flow">52306bb33ba67610f988bffe23e45ad7</model>
+        <model_id>52306bb33ba67610f988bffe23e45ad7</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_52306bb33ba67610f988bffe23e45ad7</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 07:34:58</sys_created_on>
+        <sys_id>5e306bb33ba67610f988bffe23e45ada</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 10:54:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5e306bb33ba67610f988bffe23e45ada"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Animal Welfare Request Flow">52306bb33ba67610f988bffe23e45ad7</model>
+        <model_id>52306bb33ba67610f988bffe23e45ad7</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_52306bb33ba67610f988bffe23e45ad7</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 07:34:58</sys_created_on>
+        <sys_id>d630abb33ba67610f988bffe23e45a10</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 10:54:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d630abb33ba67610f988bffe23e45a10"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=52306bb33ba67610f988bffe23e45ad7"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=52306bb33ba67610f988bffe23e45ad7"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=52306bb33ba67610f988bffe23e45ad7^sys_idNOT IN2a30abb33ba67610f988bffe23e45a3e"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Animal Welfare Request Flow">52306bb33ba67610f988bffe23e45ad7</flow>
+        <generation_source/>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 07:34:59</sys_created_on>
+        <sys_id>2a30abb33ba67610f988bffe23e45a3e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 10:03:00</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VY227jNhD9FUFPLeACuvimvKVJFg2w3aCOt30IUoESSZsoTXklSom7yL93qJtlXRw7VrbOSwCRNOfw8MyZYR6+6xx5hOsX+hx5nOgDnQlJQoH4fLMmMCzVsCvQSs2tkMBIBuFGv5BhTAY6DYPVnKzWHElYTBGPYDAIMQn1C3OgJ4jH5H4T3WLYCX6fbpPvqefT8P3smlNn7EwsN1qhULqGiwRbIe6G5FtMIglLMYsgyObP/BeX6bw2K+f9JeM4JEK/eHgc6GsUQiSpUHyvTTEFxac+cixi+LZpW5ZhWNOh6Y1tz7SwjYhhwIZ1WmrQZQs723OTZ0kEJrikpEFcSBC+E3xTrlgC7xlJK/QcsX9h96mh1lEC2H2SzZWfbk5INuwvA+aTu7VkgchGMpzZZMDjlfiS4VdUEopiLgsqYSSOYD+yVpAViBwRvV8GT7Mi4Ccm0tPlkzzwES+/kJQh82JJIkU4ZRyodzNuoiAOU/Szm6u72bX71+X86rebmTu7uZ/Pbq/mN9f6S3ou91usdswQ5ljc7Dgv5f1/YoSrC4w2kQs3OdAjP2RreelLlhQCfBlsRX0VCMxSVhrC9oupaFfYxen3KdswOrXtVyIW+v775o+mhLPB43Q7HiOECerQrUcruq2evAWabCGherp9Cs5HDpHw0DD+JxHn/vRWDa8CTPj1djsdJhcLUDUT61gqtp6QkJErAxdh7FZ4VEsB02uizs7WVPbrmg5jAVu45Q01lZ0SWTL6mYFDXjxAXhZspVvCPP2cbzmLhRbAVcIfzY9DIEtqhdPR2xVa5BzTe8KJLyuyoF+j6tfvLIqYWFRQl0FTVhoxy3AgL604UhY7OjH4Y59p3SQ9qZFZS++jc9s0KfUItYyJymzTsD1qGhNjhCi2DcO3KrndBNOJUtYk8S45flyGR6kY+QHSq1Ocgzeq2XCQjJJdDRYkKInkRnLVDzSzJ2iWglYzRPsoRyxlmQ1f76pz39F67gYQThD8Ah9qjGrBAQ5IefAEZvwG9/OQ/88iDGKB63ak9tSY0LYrtJ9y/n7u0QlpEJL9AHZXnJMHbmkvhIvEpgf3s6npOWRIDDA9G/zOGzmO5yOL0sl4Qiyz5n5bGK3YPoTrvaK2pE2uXQ7YKpykTW9HeN8JABs+eDTA0x0wF2ar/2VzH8PpnpZEuAA1dDlL37o1w1twhkkx12+2N0In2/w+NePp1PFH5mTiT+AdAxlPh8RD5tAaIWcytqejWsY3oOyDKVuY+SGvG/UuVUA63OBrNnVez/X3lG1EpFTl6PgqLaCPTX+DsiCVSqmuRUtNJQi1L4H45Xa7TrsnUADTJ25f5foQFOpitfeF4QVy2egXIPSvML4TWvWZHayc3ZOqJpJk96wnP6nIcDpyqN1uMdRps5gtmG6YZ99eHJghSWeutfUZhwo+ac2bzsbgDRKuyaTaMexpafoixeydFOv9SLFPbqOKXOx8R74F7AcqYWlfcUodUzGJG9CqeV8HGkxoEERjVMv/t0iw5m00uSRAKYd+GQJqKvqprl2tIk0opYJ/LJCsA29UMxjW8gbq/ApVTQr9voAJnqDRyO7oh536C7gN0Ct4z75sHZ0VSVuS7a1dx+1b37O1elUku6uIA+tSr6duL06nnbq1PL126tMLz773ewuKMy0pj/8BmhoEEWMfAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=52306bb33ba67610f988bffe23e45ad7^sys_idNOT IN2add08843b3e7610f988bffe23e45acb,361208883bba7610f988bffe23e45ace,7e1208883bba7610f988bffe23e45ae0,a6dd08843b3e7610f988bffe23e45acd,b21208883bba7610f988bffe23e45add,fe1208883bba7610f988bffe23e45ade"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>89ce8a4187120010663ca1bb36cb0be3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Animal Welfare Request Flow">52306bb33ba67610f988bffe23e45ad7</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 10:54:19</sys_created_on>
+        <sys_id>2add08843b3e7610f988bffe23e45acb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 10:54:19</sys_updated_on>
+        <ui_id>b8b192a1-ba99-4889-ba3b-d17a4f768606</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2XXW+jOBSG/0rFdZzFYIjpXZW02krdqZR2Zy9mR8j4o7FkIAOm02zV/74GnEBCmmln0kqV5pLjj7znPefJgS+PjmTOqYMiyjFBEE+g57rQDUOfEpgkfkgTN+HIGTkZSbnZWXCaF8w83xNV1YHHx2nBieYshmNaFQXP9NOTWWeyXCqy+my3mQhdSMXMunP65evIWZLC3Kh54Zw+7iy9VJIiCVdm63ytaVejXi3rZ5bTKjW6YrkOXtmTM7tycjkzK+ZQLQeOHP6geca40SGIKvnISUnGiM6LlXOqi8oETM7sOlOrzY6FzHSbZ0oeSvmf+WHfq/cJbhKj1oPNY2z9acNiRjS5MTdTXRUbu3JJedlawrggldLTfqzdcL3UMs/aI5okan06V1WafWoNcTYX9MpRlUYEX9Z51srbtMTNIv8+X4u8kFnjiE1R5ZSozRPRupBJpWs5j04lb/eZ3Yb32y2kMuWPG9FxmVdFY9L8fHo9n8X/nN1O/zyfx/Pzm9v55fT2vD7BFW+uTslyKbO7eFnk97JRaPJNx3fKPIyFyr+bxEp5l40Jrc0Zm9KR8YWJz5rwZ1LI+kf/MteYw7XKvzP5reKXTeMJAX0YhgBC1wcIJiGIMA+AywOCAg+FQeg5TyOnXJVTRcqy89gUN/5W1Ra1jltv46Y8bZpNh9aHaSGX+szIu+fW0afRGsbgYOeTrtF7d3ZAPsQQR2E08eIyJYWO3ZhkMiUqLrhJsdRDNs+a9ZP5Zv2VpP5Y75rU26ZB9+u3sA5iV/2zJ5/aBYuqdxhVG+lYbZt8D6rY/UCo2rR+ndUtr7dR3XJblnHbsFZ0c+t78eiZdsYo8YGfoACgSAiAXYwA4sSlgccmCNKf4PGHFB6eP6LrYppnTNZ5lT0KS010Vf5bua7PjBdLZQBiQ/Se23bUWSl6BE77YvclYDEcxK72XWAx9I81MZHrfiQQjzUzt8ze5nDL7nfhjTMcJoGLARcYA+RPMIig54EwJAxCRJlw33b+uexQN4vey6iWKc8rHQtF7nrsuUPO1v9Yr+PqBUrWXJ1nzR+mVfSsREtXkueKk2x3wpl2+uPCKrVooVdOuENsfSCyjjbiOqd35lvf63fhilKCzcAiIPIpByhMKMCCCuDzJBB+kOBk4r7BHKOHezgatiqrCtJUsSPqCN9zL9CxZmnWCXhemiWpqc1u/Gp4kcUp+I3TL+E0sHvnA69beCumFubcjKzKuisMw0PKOCSTIKm/2QhAXgQBiZAHopBPOBI49En0BpRheLC7xbCVS7rgrFL8uJS9QMeasptOwPPSLGVdo28DNu/FLWHh0QjDg5dBmmZ9cft462X1IbkTN5wUdHEhuarrab/NnqGxX5ZtEPuFeZ/p5nnQZ5wCyMyrI/JCD2AfTcAkwomLTOslPj8id1//B198c9q6FAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2add08843b3e7610f988bffe23e45acb"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Animal Welfare Request Flow">52306bb33ba67610f988bffe23e45ad7</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>cfd81912-ceb9-4c8a-8300-bb563e8ff8bf</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 10:03:00</sys_created_on>
+        <sys_id>361208883bba7610f988bffe23e45ace</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 10:03:00</sys_updated_on>
+        <ui_id>127533cb-312c-4060-b356-0a85d1a65f70</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9VTTU/jMBD9K8jnqEoattv2hkA9sSAB6oVF1iSetJYcO9hOabfiv+/EcdqKBS0r7YWeMm++3pv6Pe6ZFGzOJgLT2SyblHmW5+M0HU/Ps2KSF9lY5IBZwRKmoUaq3IBq0VEcPgiw+EyA537X4M82TXNRGSO4MBq8NJoqhXSNgt3y0w3lWiphUbP541PCGrC02qNl8/2b1Ge5KyhQUelCohLuHTEdF4o91sTUI+/F9fh1bH6IybNlTBorOlJZwnDrUQskNhUohwmrQQvwxu7Y3NuWAIsgbrXaHSrWUnsayrrarZO/aH02ScOvq66QRJbYVxxCHk/Zw9UVeLin+aVvbSwt10aWJCmcR2AFrfKXp1hfcNuEU4cWD4Uauo1qa33TH4cdBgz/HCGtIxLYdGo7/r246n5tXu4Gkgupw12iUGVKUIcIvLeyaH1HZ89QYU1zeA1NI/WKN9ZsZGgmKvVopSgYVcq80E4nV3oEZcd7RLeF0YLwqwAvwcpOxA8aQ82vCXM7d6nAuaMUuiF/bjsmvbAogYcrhBPw8Ci65tLKxl/Qqg1G4q/JYJQM028fPjY8P76tk5lHs2x5Np1NZt/H3NVgPU85aFmD4tEUf7rlIuTP7g75fzTH3/kO5ngI7+B9/oM/3mLXp71nN30i+iL9X76YfiVHRBlf3hIfGeHpN05gHuszBgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=361208883bba7610f988bffe23e45ace"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Animal Welfare Request Flow">52306bb33ba67610f988bffe23e45ad7</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 10:03:00</sys_created_on>
+        <sys_id>7e1208883bba7610f988bffe23e45ae0</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 10:42:22</sys_updated_on>
+        <ui_id>830fd424-f11d-412b-803b-3e9e04618cae</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9WV207jMBCGXwX5uqlyaJukdwiEhMSCBCw3CFkTe0wtOQccB+hWvPvaSShNObPLSnuZydjz+5/57MsVkZzMySRIOE9F4IsgCPzAnwZhkGCCGYtnMUYJGZECcrSZRWmkkAyMLAsbvQXVuPB0lk6Sie9HmYB4ZvdJkyQTAsMIJ1PgkU3lsq4ULC/6FbuFzEHtnOJNg7XZ2a1reV3UNo8tpOIaCzK/vBqRCrQtbFCT+Wrr10eVK8hQ2dTjofSXD2SWlYtqFGgLMexDR/0epxvxUnMnKxoRvDdYcLR6BKgaRySHgoMp9ZLMjW5sQCPwk0It1xkLWRi7H3G597X8ZYtG4Wij7pzUyxpvsTAUc5CKAuslrnNob+nzs4l9MHBmSzPTaOzqsEUpGdaddxwFNMrsbca6hJOq3aNdYiBTbylhpWry4rgzEmy7mUFOhUTFaVnQdg1ZF3vsvI00tRWPlTPN2dB5JM4W5d3a4ANZtPb2fqmSgVp/iTMEzRYHrpLroVMwImCMlllj3IFWw8bOiavhKsvzV9qJCnN3xhyqShbXtNLlrWwl2HPm42tlP8ZClXdWuZvVcWfD2DYaxgc2vt+GL0BLZ9sPu41d/Fhxa6ZqNLS3hboNqCh1Dm4i2hO2y34W0rJx2E55GmAchYmXzkLmTTCaehmPIi8IMoYIKEIekIeRa9SegrruW9INC71pnHWk7UTvOe08cUJp655bzLSszK491S32Tj+MHi8I/hZm4cYFoZFZMDauhtVqz06/G4xgzBptHTAPD8/vg8+T/74ktW5zr2lbY087L1nT9l7yLd73+z87h/tPxAdvE99HvoL8K3T/faK34f0WSoc8rjkYuj0Ecuj39yG5wRYP/DhKfebF4TTyJj4DL0t45kEWiulkMktm2feylbz9hIVPc7ux5xNf9zRI0lkah7TOQRvqU2ifVqq7p/W9p/fT4H1A7yN45+24vay/Z+9Z7Ghz7c5x96MnL/wked3IvgBe4v9H4K0fvT8lb+D1ELyB2/+EO5Zlmcgw9ewbZt+0GBMvCSH2cOqzSISR78fiC9y9RtvVb9xjpk7sCgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7e1208883bba7610f988bffe23e45ae0"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Animal Welfare Request Flow">52306bb33ba67610f988bffe23e45ad7</flow>
+        <generation_source/>
+        <order>8</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 10:54:19</sys_created_on>
+        <sys_id>a6dd08843b3e7610f988bffe23e45acd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 10:54:19</sys_updated_on>
+        <ui_id>a4c4a54f-2467-4e99-b15f-6ea39485dbb8</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9WW207cMBCGXwXlerPKaTcJdwiEVIlSCSg3CFkTewyWnAOOQ6Er3r3jJHuCLZS2VOqlx6d//pkvztXCU8Lb9xKRCZHLMJBhGAZhMAujMMMMC57OU4wyb+JVUCKtNMhrI2h8D7pzgcXi0CBYFCyc8s4YrOzTE80L1TYaHi/HZRTht0oLmvf2r64nXgOGTrRovP3Fs6lflaShQE1Lz5aanmu0j40bi5p3Jeliahk8GXcejTN7n45ohjY5OeHEwweLlUDSIUG3OPFKqATY2jyuIpS0+FLpdeBWVXZItISHVn2nm+PIrZNImfHRhNWQjQYNYXkEFs6t6bjtzMqvWnFsB08ESui0PdyMDQu+NFbV1bDFQqGXu2vdldXp4Ii3OmCjHl1LIrBxiTrldDllIc9v629nS5HHquotGVPUNQe9GoG1RhWddXIWXqcudrk9hHf7jRr7hSU0japuWGPqe9XfR+rL6Y2mwVTq+hvJbNVNNQXuUp1SJWB6TPGjPnwJRrm8P9MxtNnd+bVSdx1+cn0kwiCN84D7aTSL/STg4BeZKHwoIjlLknk2L0LvaeK1j+2hhrZdO0alYnedS3jwb3SK9Wb3TrO+4dxmblRjD0jePY7+PE1GtrLwtUaOo3Xfbpy55uuBhVk+z9OItSUYywIGlSpBM4OUYmtfonbQz++drebfB94v6F2Cd9G32279I3svYiebe/dOh4mRvOid5A0tuwO8LPiPwBvT+nPytrzeBm/L7X/CHS+KQhaY+2HBuZ+kmPlZBKmPs4DHMoqDIJW/wd1btCWvd+/GS1bVVknFoS/imrfZPE+yJAjiQkI6p3PyLCukxCjGZAYifou3vYPWmdO+/8F7W/mSu9Nt6bsTGgFcY7DN39lGfMQvfh2/gbbfefeoxnjvSoglKM2GdvoJk89y+8t8/kzJFrRA5ebuj0Yq1IL6jvV7PuQRlecIht8eu5tcDQdCtwHfKixhTne8AHyznB/H98XLnmrRstEW5g5gsjYluI7oM3z+WUjyENM4yvx8HtFnAeOZX4g49kP6TCACykh8zHN8/QNMono27AoAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a6dd08843b3e7610f988bffe23e45acd"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Animal Welfare Request Flow">52306bb33ba67610f988bffe23e45ad7</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 10:03:00</sys_created_on>
+        <sys_id>b21208883bba7610f988bffe23e45add</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 10:03:00</sys_updated_on>
+        <ui_id>1033a9f8-77b6-467a-954a-a968bdce52dc</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VXXW/aMBT9KyjPEXIKpbRvE1WlSW2R2q4vXWs5sQPWTJLZDh9F/Pdd20lgkDLYUq3TnlCur32Pzz3HNk9Lj1PvwkNxFyESnPbPEOp0EOr1OhEJwrDTi0IUnp57vpeQCYNMlUqN9SJjEJoSkVcxoiIIUa4yQRaPxQhp6bT1CvFozAWVLPEunp59LyMSVtNMehfLraFD4QgSMgGp91C79eDw1EC0PxdQI+VR+X1dTB2UwVRSA6Xje2yuWUIZYIiJUMz3JiShRKdyUUUkI3SYiHVgzBMNq3kmea74K9TrnJi8mMGuIubGqk9cUOTC8SXR5F7LPNK5LFIdWAV8LKttVkTWcF7ARyt/nf9q8sl2PmWbE4IV8E1ZTHKhB79XMzi25omp6TY4zDRPoetex/SFhKLcfirySXLreulVCB9rxOZGLt/QXK6AbJaZhpoOFe2K78fp7K7sxhVPLK5iUKQREdUX0VryMNeGl6UXUxxzJijmieCJqQRtM/Jhgk2gAp6QLOPJCGcynXK7Kuxl0h4J+GjHIp0ZLvgoaZPI7LwNwiLtK4hf2vAjkdywcAPLwGTfFBzD1KIeVpHkmcYzTkdMr6uXWTTVMyK+1Y0XisNlo+z2vJXvqYUaCKLUmmyQKf6eGw4c9QV72DbKTrEoPsEOpqwgymjA2jY622vb0y2LukZv6GX3/Dj65DgAQsnC0CiyFS7eQlUcHa7nNuPn4+PKDLRu3UAp78aOkD5q5gips/iuBY9y4K61jNT+wFnvaKA6xx4vfMfNL9Tf3Xtp9YK1zqDJWDIFlKoN9QcIoV0HBL4LH2eDA7CUNrgh89ZdBaYWYeEEECkbWWI3bfC5ihYe6Dbmge7H9UDZrNobqOxZwxfQ+9ik+Wugv//1htYyi9KEcoNx0wcyFUx9zWEuneOgf947PzvBakLgbEbtKdMvw7v9KdA50CSTL4ZMs7rLXC4HIDrNKA7aUS6Bfd0uM1arXef9NRzHWf0AtkurDzbprmtB+Vrejl3XLVA+ARu0O/q4hv9HLr13utv2i6wbrvXkltv4D7BQGIiTu/764qJNqt0CKdX+UCDZAlZo3H7WPevstK1nHfo/n3Uf88ICQFyAQrBroUpzaamc4kjkyg5Ikii3VoPX2/MPCQHlei0RAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b21208883bba7610f988bffe23e45add"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Animal Welfare Request Flow">52306bb33ba67610f988bffe23e45ad7</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 10:03:00</sys_created_on>
+        <sys_id>fe1208883bba7610f988bffe23e45ade</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 10:04:48</sys_updated_on>
+        <ui_id>829ef7e3-11a9-46d0-92f4-20f0f90f752e</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1TXWviQBT9KzLPEhJjXfWtKMJCtwVbfOm2wzVztQOTj85MrK743/cmmURr3WKhC1vYvM39mDnn5Jz7LZOCDVkXhR8Mgl4UBmHY8f1OvxvMe+E86IgQEAPWZgnESJMao1QLOq9A5UVhux1pBIuCB16Ua42J3e2oL6TJFGxmbowq0ZNUgvpseP/QZhloutGiZsPtUetcSArmqGh0WmM6xmg3WXEWaZTHhIvLunjlNseu0/o+pg4tFXACv81wbTERSEAWoAy2WQyJAJvqDRtanVOBSIubRG2aiSeZ2IpoDGsjf9HLXb+YWyAxi5wIzZE7garyYgwWbunmyOa60SuVEZpKE4ELyJUdHdaqgZvMyjSpVizMVb2dqjxOritFWHPBwf/IDYHArOBZIK9oLW6f0pdpDXIik1ISR1GlEajmBNZqOc9tAWfLUGGpcQxZJpMlz3S6kuUyQYm9paKDt1DpC71p5DLxICpwe6QqeBOqj8vyDLQsSPyga2h512ZmY0YKjNlTIQ35c14gqYg5CrxUoZSAl04oliMtM3tJT63QAd+1nen9zrsOw72hSq+bA9MTHMJKnicN9c/c90NxIgfeqzGPiJADd7tHY8HmplqrR94m5q+88bEMnqFQncGJRCXMCclcBi3GRM4iryR8HcM712zNXLNJ4qdFMej55fc/kP9uIOcX79ktGuzddXDnPpRrHvQHvcG3DjcxaMt9DomMQXGNz+RF+zZil2W/NW36H4vHGXjreNyVPjiNv07Ice3qcLd1XTVcMi4+LRj9rxQJR+PLZ+JPSXj4DdvjGxiRCQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=fe1208883bba7610f988bffe23e45ade"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=52306bb33ba67610f988bffe23e45ad7"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=52306bb33ba67610f988bffe23e45ad7^sys_idNOT IN3e1208883bba7610f988bffe23e45ae2,761208883bba7610f988bffe23e45ae5"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">ba2927f73be67610f988bffe23e45ab9</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Animal Welfare Request Flow">52306bb33ba67610f988bffe23e45ad7</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 10:03:00</sys_created_on>
+        <sys_id>3e1208883bba7610f988bffe23e45ae2</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 10:54:20</sys_updated_on>
+        <ui_id>9b8e949a-91b5-4416-b823-8fac18c34eea</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VXWvbMBT9K0PPxthxE9a8lZTCYGvZWvqydeZakhMxWXL1kdQ1+e+78kcSlsAatpfB3qyje6/OufdYaon2rvbOPugra8VSkfnXp4gIFTD8bomCipM5oVox4YRWJCJrkD5gbbswHBxneRpTbwxXLjb82XPrctfUfLv95pMkY2ugVCgI2d9vP781yzpuhBSv5+a5EFXhLjJlwtYSmsd/hjBdCckwsh9DDQa7j2XJvP1lSzDUcwnTcpomU5pNZtkkSSbvL9JilhXphGXAL2ZYUELBJYYuDuZ3YqSBD0LWGaGWw/rjkHo/gtqwQGWSRIS/OK4YRxIlSMsjUoFi4LRpyNwZjwCKYndKNruIlUCFc0JC7IsVrzxUSpIQWXLURXm/u1vmw/R6uLwGB0jFU+fNEEpXWlBu+44wXoKXbnGI9QF3daeyS3FQyDFbS1+p274ZZFdgNAsi3iIJXgelgfsgpLxf6c2XkeWNUF1Xhk2pKcjdChz2rvAu8GkJlzyMOa+grrGjeW30WnTJyKWKlxIXcSn1Bg8N/2IMNBCPsbEQ3yB+3cGPYERQ8QnLYDJ6weaWGlGP2rrDyTYitrELCdbuNWJz82cfGPaKB215356Q0hW6woPXfJCxjY5vgbwD9lfB8b92tpnLBMr0kqanzQzZKTO/6z16bOmR3zm+Tn/j6wF5k7Gn0/++/mNfB5oFWEHz7j3CcuFq+YvGfgoG7g/dNZsKi9weAvZhfAXDRoOOEvQQ2mjzI6jaY9ufW3VkHU8HAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">194433f73be67610f988bffe23e45a14</block>
+        <comment/>
+        <connected_to>9b8e949a-91b5-4416-b823-8fac18c34eea</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Animal Welfare Request Flow">52306bb33ba67610f988bffe23e45ad7</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 10:03:00</sys_created_on>
+        <sys_id>761208883bba7610f988bffe23e45ae5</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 10:54:20</sys_updated_on>
+        <ui_id>cfd81912-ceb9-4c8a-8300-bb563e8ff8bf</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=52306bb33ba67610f988bffe23e45ad7"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=52306bb33ba67610f988bffe23e45ad7"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_52306bb33ba67610f988bffe23e45ad7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 07:34:58</sys_created_on>
+        <sys_id>9a306bb33ba67610f988bffe23e45af3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Smart Animal Welfare Management System" source="x_1896972_smart_0">9ea4033b3ba27610f988bffe23e45a70</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 07:34:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_52306bb33ba67610f988bffe23e45ad7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 07:34:58</sys_created_on>
+        <sys_id>d630abb33ba67610f988bffe23e45a17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Smart Animal Welfare Management System" source="x_1896972_smart_0">9ea4033b3ba27610f988bffe23e45a70</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 07:34:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_52306bb33ba67610f988bffe23e45ad7"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_52306bb33ba67610f988bffe23e45ad7"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>8873d73b3b267610f988bffe23e45ae7</sys_id>
+        <latest_snapshot>52306bb33ba67610f988bffe23e45ad7</latest_snapshot>
+        <compiler_build>glide-zurich-07-01-2025__patch4-11-14-2025_12-03-2025_1405.zip</compiler_build>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=8873d73b3b267610f988bffe23e45ae7^sys_idNOT IN2630abb33ba67610f988bffe23e45a6a"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"2630abb33ba67610f988bffe23e45a6a","name":"plan","plan_signature":null}}</plan>
+        <plan_id>8873d73b3b267610f988bffe23e45ae7</plan_id>
+        <snapshot>77dd98c83bbe7610f988bffe23e45a37</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 07:34:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2630abb33ba67610f988bffe23e45a6a</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 10:54:20</sys_updated_on>
+        <trigger display_value="">7edd48843b3e7610f988bffe23e45a70</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=8873d73b3b267610f988bffe23e45ae7"/>
+</record_update>

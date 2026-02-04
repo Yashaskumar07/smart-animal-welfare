@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="2283677b3ba67610f988bffe23e45aa2" sys_domain="global" table="x_1896972_smart_0_animal_request" version="3" view="workspace-smart-animal-welfare-management-system-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requester_name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-27 08:00:26</sys_created_on>
+            <sys_id>e306a7ff3ba67610f988bffe23e45ac9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1896972_smart_0_animal_request" sys_domain="global" view="e083237b64a676108bcbd91bb01078c5">2283677b3ba67610f988bffe23e45aa2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-27 08:00:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-27 08:00:26</sys_created_on>
+            <sys_id>ab06a7ff3ba67610f988bffe23e45aca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1896972_smart_0_animal_request" sys_domain="global" view="e083237b64a676108bcbd91bb01078c5">2283677b3ba67610f988bffe23e45aa2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-27 08:00:26</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>request_type</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-27 08:00:26</sys_created_on>
+            <sys_id>2b06a7ff3ba67610f988bffe23e45acb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1896972_smart_0_animal_request" sys_domain="global" view="e083237b64a676108bcbd91bb01078c5">2283677b3ba67610f988bffe23e45aa2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-27 08:00:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-27 08:00:26</sys_created_on>
+            <sys_id>a706a7ff3ba67610f988bffe23e45acc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1896972_smart_0_animal_request" sys_domain="global" view="e083237b64a676108bcbd91bb01078c5">2283677b3ba67610f988bffe23e45aa2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-27 08:00:26</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>animal_type</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-27 08:00:26</sys_created_on>
+            <sys_id>2706a7ff3ba67610f988bffe23e45acd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1896972_smart_0_animal_request" sys_domain="global" view="e083237b64a676108bcbd91bb01078c5">2283677b3ba67610f988bffe23e45aa2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-27 08:00:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-27 08:00:26</sys_created_on>
+            <sys_id>a306a7ff3ba67610f988bffe23e45ace</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1896972_smart_0_animal_request" sys_domain="global" view="e083237b64a676108bcbd91bb01078c5">2283677b3ba67610f988bffe23e45aa2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-27 08:00:26</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-27 08:00:26</sys_created_on>
+            <sys_id>2306a7ff3ba67610f988bffe23e45acf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1896972_smart_0_animal_request" sys_domain="global" view="e083237b64a676108bcbd91bb01078c5">2283677b3ba67610f988bffe23e45aa2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-27 08:00:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-27 08:00:26</sys_created_on>
+            <sys_id>af06a7ff3ba67610f988bffe23e45acf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1896972_smart_0_animal_request" sys_domain="global" view="e083237b64a676108bcbd91bb01078c5">2283677b3ba67610f988bffe23e45aa2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-27 08:00:26</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>request_date</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-27 08:00:26</sys_created_on>
+            <sys_id>2f06a7ff3ba67610f988bffe23e45ad0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1896972_smart_0_animal_request" sys_domain="global" view="e083237b64a676108bcbd91bb01078c5">2283677b3ba67610f988bffe23e45aa2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-27 08:00:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-27 08:00:26</sys_created_on>
+            <sys_id>ab06a7ff3ba67610f988bffe23e45ad1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1896972_smart_0_animal_request" sys_domain="global" view="e083237b64a676108bcbd91bb01078c5">2283677b3ba67610f988bffe23e45aa2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-27 08:00:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-27 08:00:26</sys_created_on>
+            <sys_id>2b06a7ff3ba67610f988bffe23e45ad2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1896972_smart_0_animal_request" sys_domain="global" view="e083237b64a676108bcbd91bb01078c5">2283677b3ba67610f988bffe23e45aa2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-27 08:00:26</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_user</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-27 08:00:26</sys_created_on>
+            <sys_id>a706a7ff3ba67610f988bffe23e45ad3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1896972_smart_0_animal_request" sys_domain="global" view="e083237b64a676108bcbd91bb01078c5">2283677b3ba67610f988bffe23e45aa2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-27 08:00:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-27 08:00:26</sys_created_on>
+            <sys_id>2706a7ff3ba67610f988bffe23e45ad4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1896972_smart_0_animal_request" sys_domain="global" view="e083237b64a676108bcbd91bb01078c5">2283677b3ba67610f988bffe23e45aa2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-27 08:00:26</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>remarks</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-27 08:00:27</sys_created_on>
+            <sys_id>a306a7ff3ba67610f988bffe23e45ad5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1896972_smart_0_animal_request" sys_domain="global" view="e083237b64a676108bcbd91bb01078c5">2283677b3ba67610f988bffe23e45aa2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-27 08:00:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1896972_smart_0_animal_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-27 07:49:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2283677b3ba67610f988bffe23e45aa2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1896972_smart_0_animal_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Smart Animal Welfare Management System" source="x_1896972_smart_0">9ea4033b3ba27610f988bffe23e45a70</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+            <sys_update_name>sys_ui_section_2283677b3ba67610f988bffe23e45aa2</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-27 07:49:28</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace Smart Animal Welfare Management System 0" name="workspace-smart-animal-welfare-management-system-0">e083237b64a676108bcbd91bb01078c5</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

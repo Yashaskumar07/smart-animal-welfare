@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Animal Request">1ed54bbb3ba27610f988bffe23e45a22</application>
+        <filter/>
+        <name>Animal Requests</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_1896972_smart_0.user,x_1896972_smart_0.ngo_public</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 05:39:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9ed54bbb3ba27610f988bffe23e45a34</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Animal Requests</sys_name>
+        <sys_package display_value="Smart Animal Welfare Management System" source="x_1896972_smart_0">9ea4033b3ba27610f988bffe23e45a70</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_update_name>sys_ui_module_9ed54bbb3ba27610f988bffe23e45a34</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-03 17:59:50</sys_updated_on>
+        <table>x_1896972_smart_0_animal_request</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

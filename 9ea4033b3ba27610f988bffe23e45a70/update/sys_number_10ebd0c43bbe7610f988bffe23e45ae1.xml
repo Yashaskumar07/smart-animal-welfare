@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_1896972_smart_0_animal_request">x_1896972_smart_0_animal_request</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>ANI</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 11:55:37</sys_created_on>
+        <sys_id>10ebd0c43bbe7610f988bffe23e45ae1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ANI</sys_name>
+        <sys_package display_value="Smart Animal Welfare Management System" source="x_1896972_smart_0">9ea4033b3ba27610f988bffe23e45a70</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_update_name>sys_number_10ebd0c43bbe7610f988bffe23e45ae1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 11:55:37</sys_updated_on>
+    </sys_number>
+</record_update>

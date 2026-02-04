@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1896972_smart_0_treatment_logs</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Deduct Inventory on Treatment</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous) {
+
+    var item = current.getValue('item_used');   // inventory sys_id
+    var qtyUsed = parseInt(current.getValue('quantity_used'), 10);
+
+    // Stop if data missing
+    if (!item || !qtyUsed) {
+        return;
+    }
+
+    var inv = new GlideRecord('x_1896972_smart_0_inventory');
+
+    // Fetch inventory record
+    if (inv.get(item)) {
+
+        gs.info(' Inventory record found');
+
+        var available = parseInt(inv.getValue('quantity_available'), 10);
+        var remaining = available - qtyUsed;
+
+        // Update quantity
+        inv.setValue('quantity_available', remaining);
+
+        // ✅ Update status
+        if (remaining <= 0) {
+            inv.setValue('status', 'out_of_stock');
+        }
+        else if (remaining <= 10) {
+            inv.setValue('status', 'low_stock');
+        }
+        else {
+            inv.setValue('status', 'available');
+        }
+
+        // ]]>🔴<![CDATA[ IMPORTANT: only ONE update()
+        inv.update();
+
+        gs.info(' Inventory quantity & status updated successfully');
+    }
+    else {
+        gs.info(' Inventory record NOT found');
+    }
+
+})(current, previous);
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 16:16:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9aaf12983bbe3a10f988bffe23e45acc</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Deduct Inventory on Treatment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Smart Animal Welfare Management System" source="x_1896972_smart_0">9ea4033b3ba27610f988bffe23e45a70</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_update_name>sys_script_9aaf12983bbe3a10f988bffe23e45acc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-30 12:00:33</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=9aaf12983bbe3a10f988bffe23e45acc"/>
+</record_update>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>Main Configuration</description>
+        <name>chrome_main</name>
+        <page display_value="">57565c48947e7610dfa6e1074c0d5a2d</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 11:31:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>13565c483f7e761061208ec8b9184d1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_main</sys_name>
+        <sys_package display_value="Smart Animal Welfare Management System" source="x_1896972_smart_0">9ea4033b3ba27610f988bffe23e45a70</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_update_name>sys_ux_page_property_13565c483f7e761061208ec8b9184d1b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 11:31:32</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1896972_smart_0.57565c48947e7610dfa6e1074c0d5a2d.root.chrome_main</unique_name>
+        <value>{&#13;
+  "maxCachedPageCount": 5,&#13;
+  "maxActivePageCount": 3,&#13;
+  "timeLeftWarning": 15&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</application>
+        <file_path/>
+        <instance_id>d2437098fb17e6545704f3585eefdc49</instance_id>
+        <instance_name>dev354184</instance_name>
+        <name>sys_ux_page_property_13565c483f7e761061208ec8b9184d1b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>Main Configuration</description><name>chrome_main</name><page display_value="">57565c48947e7610dfa6e1074c0d5a2d</page><required_translations/><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-01-27 11:31:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>13565c483f7e761061208ec8b9184d1b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_main</sys_name><sys_package display_value="Smart Animal Welfare Management System" source="x_1896972_smart_0">9ea4033b3ba27610f988bffe23e45a70</sys_package><sys_policy/><sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope><sys_update_name>sys_ux_page_property_13565c483f7e761061208ec8b9184d1b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-01-27 11:31:32</sys_updated_on><type>json</type><unique_name>x_1896972_smart_0.57565c48947e7610dfa6e1074c0d5a2d.root.chrome_main</unique_name><value>{&#13;
+  "maxCachedPageCount": 5,&#13;
+  "maxActivePageCount": 3,&#13;
+  "timeLeftWarning": 15&#13;
+}</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>-1144508432</payload_hash>
+        <record_name>chrome_main</record_name>
+        <reverted_from/>
+        <source>e8da69023b123210f988bffe23e45a73</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2026-01-09 02:16:58</sys_created_on>
+        <sys_id>ee4f050c3b36b610f988bffe23e45aad</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>19ba08aed900000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Page Property</type>
+        <update_guid>ae4f050c6336b6108ce36ff2418522ad</update_guid>
+        <update_guid_history>ae4f050c6336b6108ce36ff2418522ad:-1144508432</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 15:40:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>51f9f0b509cb4480aa6bd233f67d2100</sys_id>
+        <sys_metadata>13565c483f7e761061208ec8b9184d1b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_main</sys_name>
+        <sys_package display_value="Smart Animal Welfare Management System" source="x_1896972_smart_0">9ea4033b3ba27610f988bffe23e45a70</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_scope_delete display_value="">0824da4efcf4400081bdea3c84000000</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_13565c483f7e761061208ec8b9184d1b</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_13565c483f7e761061208ec8b9184d1b">ee4f050c3b36b610f988bffe23e45aad</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 15:40:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

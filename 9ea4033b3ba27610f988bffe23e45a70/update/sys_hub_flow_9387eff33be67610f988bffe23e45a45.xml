@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes/>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from>049a0e497743011031e3b3c64b5a9996</copied_from>
+        <copied_from_name>FlowTemplate: Record Trigger</copied_from_name>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>inventory_flow</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>inventory flow</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 08:06:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9387eff33be67610f988bffe23e45a45</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>inventory flow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Smart Animal Welfare Management System" source="x_1896972_smart_0">9ea4033b3ba27610f988bffe23e45a70</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_update_name>sys_hub_flow_9387eff33be67610f988bffe23e45a45</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 08:07:02</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record display_value="Created 2026-01-27 00:07:05">7897a3373be67610f988bffe23e45a7c</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=9387eff33be67610f988bffe23e45a45"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9387eff33be67610f988bffe23e45a45"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=9387eff33be67610f988bffe23e45a45"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=9387eff33be67610f988bffe23e45a45^sys_idNOT IN5787eff33be67610f988bffe23e45a5f"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>9387eff33be67610f988bffe23e45a45</id>
+        <name>inventory flow</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 08:06:59</sys_created_on>
+        <sys_id>5787eff33be67610f988bffe23e45a5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 08:06:59</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=5787eff33be67610f988bffe23e45a5f"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=9387eff33be67610f988bffe23e45a45^sys_idNOT IN9787eff33be67610f988bffe23e45a6a,db87eff33be67610f988bffe23e45a70"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="inventory flow">9387eff33be67610f988bffe23e45a45</model>
+        <model_id>9387eff33be67610f988bffe23e45a45</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_9387eff33be67610f988bffe23e45a45</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 08:06:59</sys_created_on>
+        <sys_id>9787eff33be67610f988bffe23e45a6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 08:06:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9787eff33be67610f988bffe23e45a6a"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="inventory flow">9387eff33be67610f988bffe23e45a45</model>
+        <model_id>9387eff33be67610f988bffe23e45a45</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_9387eff33be67610f988bffe23e45a45</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 08:06:59</sys_created_on>
+        <sys_id>db87eff33be67610f988bffe23e45a70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 08:06:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=db87eff33be67610f988bffe23e45a70"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=9387eff33be67610f988bffe23e45a45"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9387eff33be67610f988bffe23e45a45"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=9387eff33be67610f988bffe23e45a45^sys_idNOT IN5387eff33be67610f988bffe23e45adc"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="inventory flow">9387eff33be67610f988bffe23e45a45</flow>
+        <generation_source/>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 08:06:59</sys_created_on>
+        <sys_id>5387eff33be67610f988bffe23e45adc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 08:07:00</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/+VYW3OjNhT+KwxP7Yw7w8U2Jm+7djrNTJq0jrf7kEk1AiSbWSxcECTeTP57jxBgjMHxJWnXzotnfCSk8336zkW6f1Z55E+nJLpiMcfMJXfL+MpTL1Tct7HbH9iW1TU1XddMnZiO6fa7Tg/bNjbVjhpghwQwdYKdgMB/n3ESMRxMlgsCZi7MiOG5GJtj5mEeRkv1gkcJ6ag0CucTMl8EmMNkioMYjGHkkUi90Dtq9lm+Bnye4iAR/5+QPrD7tmWgeI4jjjTks5SwbOGO6vkxrLf8K58MlgWOYCEuFn0u/bv22Tc57M78wIsIUy/uH8B/gdulLrYNormmbhqGphmDru70TUc3PBMTTWvAXfOVN8AXtuvqZ8qNHFghJk+cMI94JRkblEUEe7csWJYzZoBIApnjp9j/DtsONDGPEgDl5hyUf1HOjzTTEeb4DlZ2eRKRgo/Qd0ks6fAIxUnAh1WbnHC74H7I5CcStfw6DJI5u5FsqOUCleNIYnCCLARO4XkOg97Nwsdx4eWvPssoyQeD0MVB+Q9zkKuTcOHPs0r9AE4USabjMIkyyOPL4e14hL5+mgx/uxyj8eXdZHw1nFyO1JeOGi/jYYDjeOUl0IP+ScQe0ufcOyQBik/cyF/wTy7300KpL523iJthyDw/Y3IjdtxiKK76VBFZRRwFi9sCStNKmbqVXYuw+vvyz83wkcb9I6jfx9gjuCWCHNrCQIN7vIGMaiQNqwNVqNtiKbfsEkxdTTulcMoT66HRNA89EoyqWpMKhxS7SLig+BEzHiMeIux5qHIqYir4tH94SbTvGWNRwmArVApiM9KyIygP69qPAfo95JaC58wZccCF6sYJU0JQDvwobhIBzVwpwpJezfE0R07/KEInozfXd4ojhOYIiEKzxEFrHCPLHth6vy10LHeNwSx4hZBU9eFFnDsJiMsroqdf4uq/3/049tm0Qm+JMTu+DYglOggepWBQQo1PC+vDMQlzU0JpTRq1xLlNIPunU12n1CHU0CzBEojdobpmaT1MPVPTXGOr2Fsh8Jr619JqYXyXlPo2CfW5BL2N7fpBFYCE+IN9tJ6uB0q+jvHSlNd/HNdq5cXcq76U4pbm0e4af+MuD3upSP7e4WXm3SsMDcJHSGsHVBcHu9+mUZgwr55/xZqKz5TVDOWn/Cx+Pq3sW600NIzIdrzrM04H5dE1ZiWiIqQxa7jVSuP+dcSkumOTLtGgfJhQOZyebTsuNii1+hYx9FZJN7p4XvXjlVhLm4K1LWE36jhtkv8eVeT/d/CoWpILubGSyLGPVzMeZ4QhgB2hQFSFjdIxDXyPFGPHZZaNrdLVHfIt3szowHZ7umW5FqRYSC20Sxysdw3AbfXNQe815Ntc5Q1sVJPNtTT9J7d/UWSEby1J54sc+gFeAj5K+MSEc1GC9++7GFyHsm+wdK/SjAhdKFmiDCPlJmS/XK3mKXcEin72OHVCrUm1AdsFtBCyclaonZDPNhpOQPoZ7GtIxR2r5cw/2ptHLcLSdSob3jwOIfSA9xDSHfRsajYXG2pvzxPt+M6no90xgaWtqbCpc9w1QaSNeabsJOu96AGSqQkxX9p8pYv+uKQc1bkX0d76CHSIsx+0W8na2mNaFuEtQSGtVrJRqMCAApsoPlVyb4mnOEuFzwgcTwDXPdhQEbufWAmrVvBN5GXwnTVueT3eaFzArORXkRMC9jY9SS2Otr6WNfC1f8tBPAv3embL/dauP501OfkKhvNpPvbOR2lTettabPdbt75mY7mtyGNdTjt2F2eM+t0e/hq8OJnG4OFfDPfdfTknAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=9387eff33be67610f988bffe23e45a45"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=9387eff33be67610f988bffe23e45a45"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=9387eff33be67610f988bffe23e45a45"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=9387eff33be67610f988bffe23e45a45"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=9387eff33be67610f988bffe23e45a45"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_9387eff33be67610f988bffe23e45a45</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 08:06:59</sys_created_on>
+        <sys_id>1387eff33be67610f988bffe23e45a74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Smart Animal Welfare Management System" source="x_1896972_smart_0">9ea4033b3ba27610f988bffe23e45a70</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 08:06:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_9387eff33be67610f988bffe23e45a45</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 08:06:59</sys_created_on>
+        <sys_id>1787eff33be67610f988bffe23e45a6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Smart Animal Welfare Management System" source="x_1896972_smart_0">9ea4033b3ba27610f988bffe23e45a70</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 08:06:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_9387eff33be67610f988bffe23e45a45"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_9387eff33be67610f988bffe23e45a45"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=9387eff33be67610f988bffe23e45a45"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=9387eff33be67610f988bffe23e45a45"/>
+</record_update>

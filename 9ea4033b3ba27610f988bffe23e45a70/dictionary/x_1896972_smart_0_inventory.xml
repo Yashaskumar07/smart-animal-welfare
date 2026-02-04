@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a6a98fb33be27610f988bffe23e45a6e" label="Inventory" max_length="40" name="x_1896972_smart_0_inventory" text_index="true" type="collection">
+        <element choice="3" label="Item Name" max_length="40" name="item_name" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pain Relief Injection" sequence="5" value="pain_relief_injection"/>
+                <element inactive_on_update="false" label="ORS Solution" sequence="3" value="ors_solution"/>
+                <element inactive_on_update="false" label="Amoxicillin" sequence="1" value="amoxicillin"/>
+                <element inactive_on_update="false" label="Ivermectin" sequence="2" value="ivermectin"/>
+                <element inactive_on_update="false" label="Paracetamol" sequence="0" value="paracetamol"/>
+                <element inactive_on_update="false" label="Anti-rabies Vaccine" sequence="4" value="anti_rabies_vaccine"/>
+            </choice>
+        </element>
+        <element label="Quantity Available" max_length="40" name="quantity_available" type="integer"/>
+        <element choice="1" label="Item Type" max_length="40" name="item_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Medicine" sequence="0" value="medicine"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="10" label="Threshold Quantity" max_length="40" name="threshold_quantity" type="integer"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Out of Stock" sequence="2" value="out_of_stock"/>
+                <element inactive_on_update="false" label="Available" sequence="0" value="available"/>
+                <element inactive_on_update="false" label="Low Stock" sequence="1" value="low_stock"/>
+            </choice>
+        </element>
+        <element label="Storage Location" max_length="100" name="storage_location" type="string"/>
+        <element default="javascript:'AR-' + global.getNextObjNumberPadded();&#13;&#10;" display="true" label="Inventory ID" max_length="40" name="inventory_id" read_only="true" type="string"/>
+    </element>
+</database>

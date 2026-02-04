@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>status</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 08:28:08</sys_created_on>
+        <sys_id>b3d574943b723a10f988bffe23e45abf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>status</sys_name>
+        <sys_package display_value="Smart Animal Welfare Management System" source="x_1896972_smart_0">9ea4033b3ba27610f988bffe23e45a70</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_update_name>sys_ui_policy_action_b3d574943b723a10f988bffe23e45abf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 08:28:08</sys_updated_on>
+        <table>x_1896972_smart_0_animal_request</table>
+        <ui_policy display_value="make status read only">f9e474143b723a10f988bffe23e45a4a</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=b3d574943b723a10f988bffe23e45abf"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</application>
+        <file_path/>
+        <instance_id>d2437098fb17e6545704f3585eefdc49</instance_id>
+        <instance_name>dev354184</instance_name>
+        <name>sys_ui_policy_action_b3d574943b723a10f988bffe23e45abf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>status</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-01-28 08:28:08</sys_created_on><sys_id>b3d574943b723a10f988bffe23e45abf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>status</sys_name><sys_package display_value="Smart Animal Welfare Management System" source="x_1896972_smart_0">9ea4033b3ba27610f988bffe23e45a70</sys_package><sys_policy/><sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope><sys_update_name>sys_ui_policy_action_b3d574943b723a10f988bffe23e45abf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-01-28 08:28:08</sys_updated_on><table>x_1896972_smart_0_animal_request</table><ui_policy display_value="make status read only">f9e474143b723a10f988bffe23e45a4a</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=b3d574943b723a10f988bffe23e45abf"/></record_update>]]></payload>
+        <payload_hash>604041823</payload_hash>
+        <record_name>status</record_name>
+        <reverted_from/>
+        <source>474495c43b76b610f988bffe23e45ae3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 08:28:08</sys_created_on>
+        <sys_id>3af578943b723a10f988bffe23e45aab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c03b7925e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 08:28:08</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>f6f5789467723a10b406964388f983aa</update_guid>
+        <update_guid_history>f6f5789467723a10b406964388f983aa:604041823</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 08:36:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>06de71e6f9ab4bc48185aa0e69097084</sys_id>
+        <sys_metadata>b3d574943b723a10f988bffe23e45abf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>status</sys_name>
+        <sys_package display_value="Smart Animal Welfare Management System" source="x_1896972_smart_0">9ea4033b3ba27610f988bffe23e45a70</sys_package>
+        <sys_parent display_value="make status read only">f9e474143b723a10f988bffe23e45a4a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_scope_delete display_value="">0824da4efcf4400081bdea3c84000000</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_b3d574943b723a10f988bffe23e45abf</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_b3d574943b723a10f988bffe23e45abf">3af578943b723a10f988bffe23e45aab</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 08:36:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
