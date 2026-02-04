@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="Inventory">c283277b3ba67610f988bffe23e45ac7</ais_search_source>
+        <label>Inventory</label>
+        <name>Inventory</name>
+        <order>200</order>
+        <search_context_config display_value="Smart Animal Welfare Management Systems AI Search Configuration">1f565c480c7e761015df0a24c1906023</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 11:31:36</sys_created_on>
+        <sys_id>306610883b7e7610f988bffe23e45a3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Inventory</sys_name>
+        <sys_package display_value="Smart Animal Welfare Management System" source="x_1896972_smart_0">9ea4033b3ba27610f988bffe23e45a70</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_update_name>sys_search_filter_306610883b7e7610f988bffe23e45a3b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 11:31:36</sys_updated_on>
+    </sys_search_filter>
+</record_update>

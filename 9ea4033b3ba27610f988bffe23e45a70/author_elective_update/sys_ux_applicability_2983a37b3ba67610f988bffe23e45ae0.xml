@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="DELETE">
+        <active>true</active>
+        <api_name>x_1896972_smart_0.Audience for app smart-animal-welfare-management-system</api_name>
+        <description/>
+        <name>Audience for app smart-animal-welfare-management-system</name>
+        <role_names/>
+        <roles>56a4033b3ba27610f988bffe23e45a8c,c2d5c7bb3ba27610f988bffe23e45a04,97b98ff33be27610f988bffe23e45ab3,532d87fb3be27610f988bffe23e45ab7,33bd4b3f3be27610f988bffe23e45a98,4b9dcbfb3be27610f988bffe23e45a89,20bd877b3be27610f988bffe23e45a9c,ce38c3333be27610f988bffe23e45a76,a2a4033b3ba27610f988bffe23e45a9a</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 07:49:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2983a37b3ba67610f988bffe23e45ae0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for app smart-animal-welfare-management-system</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Smart Animal Welfare Management System" source="x_1896972_smart_0">9ea4033b3ba27610f988bffe23e45a70</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_update_name>sys_ux_applicability_2983a37b3ba67610f988bffe23e45ae0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 07:49:23</sys_updated_on>
+    </sys_ux_applicability>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</application>
+        <file_path/>
+        <instance_id>d2437098fb17e6545704f3585eefdc49</instance_id>
+        <instance_name>dev354184</instance_name>
+        <name>sys_ux_applicability_2983a37b3ba67610f988bffe23e45ae0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability"><sys_ux_applicability action="INSERT_OR_UPDATE"><active>true</active><api_name>x_1896972_smart_0.Audience for app smart-animal-welfare-management-system</api_name><description/><name>Audience for app smart-animal-welfare-management-system</name><role_names/><roles>56a4033b3ba27610f988bffe23e45a8c,c2d5c7bb3ba27610f988bffe23e45a04,97b98ff33be27610f988bffe23e45ab3,532d87fb3be27610f988bffe23e45ab7,33bd4b3f3be27610f988bffe23e45a98,4b9dcbfb3be27610f988bffe23e45a89,20bd877b3be27610f988bffe23e45a9c,ce38c3333be27610f988bffe23e45a76,a2a4033b3ba27610f988bffe23e45a9a</roles><sys_class_name>sys_ux_applicability</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-01-27 07:49:23</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2983a37b3ba67610f988bffe23e45ae0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Audience for app smart-animal-welfare-management-system</sys_name><sys_overrides/><sys_package display_value="Smart Animal Welfare Management System" source="x_1896972_smart_0">9ea4033b3ba27610f988bffe23e45a70</sys_package><sys_policy/><sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope><sys_update_name>sys_ux_applicability_2983a37b3ba67610f988bffe23e45ae0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-01-27 07:49:23</sys_updated_on></sys_ux_applicability></record_update>]]></payload>
+        <payload_hash>-675723535</payload_hash>
+        <record_name>Audience for app smart-animal-welfare-management-system</record_name>
+        <reverted_from/>
+        <source>20058f3b3ba27610f988bffe23e45a38</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 07:49:23</sys_created_on>
+        <sys_id>6983e37b3ba67610f988bffe23e45a00</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19bfe6dbe2f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 07:49:23</sys_updated_on>
+        <type>Audience</type>
+        <update_guid>e583a37b28a67610d14cbb9cb51bb2ff</update_guid>
+        <update_guid_history>e583a37b28a67610d14cbb9cb51bb2ff:-675723535</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 11:25:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_applicability">sys_ux_applicability</sys_db_object>
+        <sys_id>8119ae29640d41a9b83e168a734db1e1</sys_id>
+        <sys_metadata>2983a37b3ba67610f988bffe23e45ae0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for app smart-animal-welfare-management-system</sys_name>
+        <sys_package display_value="Smart Animal Welfare Management System" source="x_1896972_smart_0">9ea4033b3ba27610f988bffe23e45a70</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_scope_delete display_value="">0824da4efcf4400081bdea3c84000000</sys_scope_delete>
+        <sys_update_name>sys_ux_applicability_2983a37b3ba67610f988bffe23e45ae0</sys_update_name>
+        <sys_update_version display_value="sys_ux_applicability_2983a37b3ba67610f988bffe23e45ae0">6983e37b3ba67610f988bffe23e45a00</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 11:25:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <federated_id>MTMVhxCo2EB07s+vYabiv5x8pMLjQWO+l5KQZMJn7sM=</federated_id>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_1896972_smart_0.ngo_public</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>ngo_public</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 06:14:18</sys_created_on>
+        <sys_id>33bd4b3f3be27610f988bffe23e45a98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1896972_smart_0.ngo_public</sys_name>
+        <sys_package display_value="Smart Animal Welfare Management System" source="x_1896972_smart_0">9ea4033b3ba27610f988bffe23e45a70</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Animal Welfare Management System">9ea4033b3ba27610f988bffe23e45a70</sys_scope>
+        <sys_update_name>sys_user_role_33bd4b3f3be27610f988bffe23e45a98</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 06:14:18</sys_updated_on>
+    </sys_user_role>
+</record_update>
